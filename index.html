@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+		 <script src="background.js"></script>
+		<link rel='stylesheet' type="text/css" href='styles.css'>		
+	</head>
+	
+	<body id='body'>
+		<div id='uiux'>
+			<div id='controls'>
+				<div id='heading'>Ned Eisenberg</div>
+				<div id='player'>
+					<div id='player-track'>Song:</div>
+					<div id='player-release'>Album:</div>
+					<div id='audio-holder'><audio id='audio' src='' controls></div>
+					<div id='track-navigation'>
+						<div id='prev' onClick='prevTrack()' background="assets/graphics/prev.png">❮</div>
+						<div id='next' onClick='nextTrack()' background="assets/graphics/next.png">❯</div>
+					</div>
+				</div>
+			</div>
+			<div id='releases'>
+				<div id='release-1' class='release' onmouseover='pauseAnim()' onmouseout='playAnim()' onclick='clicked(this)'>
+					<div class="cell">
+							<div class="front">
+									<img src="assets/graphics/mirror.gif">
+							</div>
+							<div class="back">
+									Hello
+							</div>
+					</div>
+				</div>
+				<div id='release-2' class='release' onmouseover='pauseAnim()' onmouseout='playAnim()' onclick='clicked(this)'>
+					<div class="cell">
+							<div class="front">
+								   <img src="assets/graphics/sword.gif">
+							</div>
+							<div class="back">
+									Hello
+							</div>
+					</div>
+				</div>
+				<div id='release-3' class='release' onmouseover='pauseAnim()' onmouseout='playAnim()' onclick='clicked(this)'>
+					<div class="cell">
+							<div class="front">
+									<img src="assets/graphics/flowersbloom.gif">
+							</div>
+							<div class="back">
+									Hello
+							</div>
+					</div>
+				</div>
+				<div id='release-4' class='release' onmouseover='pauseAnim()' onmouseout='playAnim()' onclick='clicked(this)'>
+					<div class="cell">
+							<div class="front">
+									<img src="assets/graphics/screensaver.gif">
+							</div>
+							<div class="back">
+									Hello
+							</div>
+					</div>
+				</div>
+				<div id='release-5' class='release' onmouseover='pauseAnim()' onmouseout='playAnim()' onclick='clicked(this)'>
+					<div class="cell">
+							<div class="front">
+									<img src="assets/graphics/orangetree.gif">
+							</div>
+							<div class="back">
+									Hello	
+							</div>
+					</div>
+				</div>
+				<div id='release-6' class='release' onmouseover='pauseAnim()' onmouseout='playAnim()' onclick='clicked(this)'>
+					<div class="cell">
+							<div class="front">
+									<img src="assets/graphics/xcobj1.gif">
+							</div>
+							<div class="back">
+									Hello
+							</div>
+					</div>
+				</div>
+				<div id='release-7' class="release" onmouseover='pauseAnim()' onmouseout='playAnim()' onclick='clicked(this)'>
+					<div class="cell">
+							<div class="front">
+									<img src="assets/graphics/disk.gif">
+							</div>
+							<div class="back">
+									Hello
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	<footer>
+		<script src="uiux.js"></script>
+	</footer>
+
+</html>

@@ -1,0 +1,49 @@
+	{
+	"releases": [
+		{"name":"Shapes And Color","year":"2009","path":"shapes_and_color",
+                        "tracks":[
+				{"title":"Shapes And Color", "filename":"07Niigatsu.mp3"}
+                        ]
+		},
+		{"name":"Psychedelphia","year":"2008","path":"psychedelphia",
+                        "tracks":[
+								{"title":"Welcome", "filename":"1welcome.mp3"},
+                                {"title":"Monte Carlo", "filename":"3montecarlo.mp3"},
+                                {"title":"Psychedelphia", "filename":"4psychedelphia.mp3"},
+                                {"title":"Escape Velocity", "filename":"5escapevelocity.mp3"}
+                        ]
+		},
+		{"name":"Shoegaze Ned","year":"2007","path":"shoegaze_ned",
+                        "tracks":[
+                                {"title":"Extended Edit", "filename":"megamix.mp3"}
+                        ]
+                },
+		{"name":"AIUEO","year":"2006","path":"aiueo",
+                        "tracks":[
+                                {"title":"_A_I_U_E_O", "filename":"aiueo.mp3"},
+                                {"title":"Rio D J", "filename":"riodj.mp3"}
+                        ]
+		},
+		{"name":"Modulation","year":"2005","path":"modulation",
+                        "tracks":[
+                                {"title":"Modulation", "filename":"Modulation.mp3"},
+                                {"title":"Gutter Bunnies", "filename":"GutterBunnies.mp3"}
+                        ]
+		},
+		{"name":"Sunrise","year":"2004","path":"sunrise",
+                        "tracks":[
+                                {"title":"Train Station Song", "filename":"trainstationsong.mp3"},
+                                {"title":"Yubaba's Decapitated Heads", "filename":"yubabasheads.mp3"},
+                                {"title":"Heii II", "filename":"heiiii.mp3"},
+                                {"title":"2AM DRIVE", "filename":"2amdrive.mp3"},
+                                {"title":"Sunrise", "filename":"sunrise.mp3"}
+                        ]
+		},
+		{"name":"Prime Number","year":"2001","path":"prime_number",
+                        "tracks":[
+                                {"title":"Oddworld", "filename":"oddworld.mp3"},
+                                {"title":"Heii", "filename":"heii.mp3"}
+			]
+		}
+		]
+}
