@@ -154,7 +154,7 @@ canvas{
 
 }
 
-@media only screen and (min-device-width: 768px){
+@media only screen and (min-device-width: 600px){
 	body{
 		overflow:hidden;
 	}

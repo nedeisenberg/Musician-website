@@ -15,7 +15,7 @@ float cell_base_width = 120.;
 float cell_base_height = 90.;
 
 //variable to determine line weight
-float weight = 4.;
+float weight = 8.;
 
 //variables to contain the implemented dimensions
 float cell_width;
@@ -44,7 +44,7 @@ void main() {
 	if (floor(mod(gl_FragCoord.y/weight,cell_height/weight))==0. || floor(mod(gl_FragCoord.x/weight,cell_width/weight))==0.){
 		gl_FragColor = vec4(color, 1.0);
 	}else{
-		gl_FragColor = vec4(1.,1.,1.,st);
+		gl_FragColor = vec4(1.,1.,1.,0.14);
 	}
 
 
